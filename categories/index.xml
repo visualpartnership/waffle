@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Hugo Winston</title>
-    <link>https://visualpartnership.xyz/waffle/categories/</link>
+    <link>https://euphonious-starlight-f228be.netlify.app/categories/</link>
     <description>Recent content in Categories on Hugo Winston</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://visualpartnership.xyz/waffle/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://euphonious-starlight-f228be.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
