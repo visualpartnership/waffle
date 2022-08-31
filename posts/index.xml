@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Hugo Winston</title>
+    <title>Blog on Aprendices Visualpartnership</title>
     <link>https://visualpartnership.xyz/waffle/posts/</link>
-    <description>Recent content in Blog on Hugo Winston</description>
+    <description>Recent content in Blog on Aprendices Visualpartnership</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://visualpartnership.xyz/waffle/posts/index.xml" rel="self" type="application/rss+xml" />
