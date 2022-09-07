@@ -9,13 +9,22 @@
     <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://visualpartnership.xyz/waffle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>¿Qué es Go Hugo? y ¿Cómo funciona?</title>
+      <link>https://visualpartnership.xyz/waffle/_gohugo/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://visualpartnership.xyz/waffle/_gohugo/</guid>
+      <description>¿Qué es Go Hugo? Go : es el lenguaje de programación en el ue esta escrito Hugo (inspirado en la sintaxis de C).
+HUGO : es un framework que te permite crear fácilmente sitios web estáticos.
+No tienes que preocuparte tanto por los estilos, HUGO tiene el super plus de manejar distintos temas, entre los cuales puedes elegir el de tu preferencia, personalizarlo y contruir el sitio. (recomendable revisar la version de tu HUGO vs la versión del tema).</description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
       <link>https://visualpartnership.xyz/waffle/posts/_gohugo/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://visualpartnership.xyz/waffle/posts/_gohugo/</guid>
-      <description>¿Qué es Go Hugo? Go : es el lenguaje de programación en el ue esta escrito Hugo (inspirado en la sintaxis de C).
-HUGO : es un framework que te permite crear fácilmente sitios web estáticos.
-No tienes que preocuparte tanto por los estilos, HUGO tiene el super plus de manejar distintos temas, entre los cuales puedes elegir el de tu preferencia, personalizarlo y contruir el sitio. (recomendable revisar la version de tu HUGO vs la versión del tema).</description>
+      <description></description>
     </item>
     
     <item>
