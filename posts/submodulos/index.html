@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>¿Qué son los submódulos de git? - Aprendices Visualpartnership</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://visualpartnership.xyz/wafflefavicon.png">
+
+  
+  
+  <link rel="stylesheet" href="../../css/style.min.5be197bf253db855657569a342e169a6749e12999268bb2729123d94d17d46af.css">
+  
+
+  
+    
+    <meta property="og:title" content="¿Qué son los submódulos de git?"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://visualpartnership.xyz/waffle/posts/submodulos/"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@zerostaticio"/>
+    <meta name="twitter:creator" content="@zerostaticio"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="https://visualpartnership.xyz/waffle">Aprendices Visualpartnership</a>
+  <div class="menu-main">
+    <ul>
+        
+        
+            <li class="menu-item-about">
+                <a href="../../pages/about/">About</a>
+            </li>
+        
+            <li class="menu-item-posts">
+                <a href="../../posts/">Posts</a>
+            </li>
+        
+    </ul>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>¿Qué son los submódulos de git?<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <h2 id="qué-son-los-submódulos-de-git">¿Qué son los submódulos de git?</h2>
+<p>Los submódulos de git son una forma de crear una copia de un repositorio dentro de tu repositprio principal. Es decir, es como una extensión, por ejemplo, dentro de tu proyecto puedes tener diferentes forks de repositorios que usarás para algo, como si tuvieras una biblioteca, creas tu carpeta donde se realiza el submódulo y asi podrás usar todo lo que tiene ese repo dentro de tu repositorio sin necesidad de tener toda esa información cargada directo en tu repositorio.</p>
+<p><a href="https://git-scm.com/book/es/v2/Herramientas-de-Git-Subm%C3%B3dulos">Definición en documentación git</a></p>
+<p><em>&ldquo;Los submódulos le permiten mantener un repositorio de Git como un subdirectorio de otro repositorio de Git. Esto le permite clonar otro repositorio en su proyecto y mantener sus commits separados.&rdquo;</em></p>
+<h2 id="cómo-crear-submódulos">¿Cómo crear submódulos?</h2>
+<p>Para crear un nuevo submódulo en el repositorio de tu proyecto. De esta forma git crea un submódulo dentro de tu proyecto.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">git</span> <span class="nx">add</span> <span class="nx">submodule</span> <span class="p">[</span><span class="nx">url</span> <span class="nx">de</span> <span class="nx">fork</span> <span class="nx">repositorio</span><span class="p">]</span>
+</span></span></code></pre></div><p>Se ve algo asi:</p>
+<p>image.png</p>
+<p>Y si entras a la carpeta observarás el enlace al repositorio que se conecta.</p>
+<p>Para inicializar un proyecto que ya tiene creados submódulos.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="nx">git</span> <span class="nx">submodule</span> <span class="nx">init</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">git</span> <span class="nx">submodule</span> <span class="nx">update</span> 
+</span></span></code></pre></div>
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/visual_partner" title="twitter" target="_blank" rel="noopener">
+          <img src="../../images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/visual_partner" title="github" target="_blank" rel="noopener">
+          <img src="../../images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/carlogilmar" title="linkedin" target="_blank" rel="noopener">
+          <img src="../../images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="../../js/bundle.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+</html>

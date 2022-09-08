@@ -6,10 +6,15 @@
     <description>Recent content in Don&#39;t stop now on Aprendices Visualpartnership</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Sep 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://visualpartnership.xyz/waffle/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 08 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://visualpartnership.xyz/waffle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Qué son los submódulos de git?</title>
+      <link>https://visualpartnership.xyz/waffle/posts/submodulos/</link>
+      <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://visualpartnership.xyz/waffle/posts/submodulos/</guid>
+      <description>¿Qué son los submódulos de git? Los submódulos de git son una forma de crear una copia de un repositorio dentro de tu repositprio principal. Es decir, es como una extensión, por ejemplo, dentro de tu proyecto puedes tener diferentes forks de repositorios que usarás para algo, como si tuvieras una biblioteca, creas tu carpeta donde se realiza el submódulo y asi podrás usar todo lo que tiene ese repo dentro de tu repositorio sin necesidad de tener toda esa información cargada directo en tu repositorio.</description>
+    </item>
     
     <item>
       <title>Que es Git y como comenzar a usarlo</title>
@@ -20,7 +25,7 @@
       <description>¿Qué es GIT? Git es un software opensource que se encarga de controlar las versiones de los archivos. Es manejado por medio de comandos y puede ser utilizado desde varios programas.
 Repositorios Remotos y Locales. Repositorios remotos: Son los que se encuentran en plataformas como GitHub o GitLab.
 Repositorios locales: Son los que se encuentran en nuestro equipo y es usado con comandos.
-Áreas de trabajo de Git  Working Directory: Es el lugar donde se almacena cualquier archivo nuevo creado o modificado.</description>
+Áreas de trabajo de Git Working Directory: Es el lugar donde se almacena cualquier archivo nuevo creado o modificado.</description>
     </item>
     
     <item>
@@ -41,7 +46,7 @@ No tienes que preocuparte tanto por los estilos, HUGO tiene el super plus de man
       
       <guid>https://visualpartnership.xyz/waffle/pages/about/</guid>
       <description>Contra vagos Lorem markdownum notam si lintea meque certa en meumque illis, diu fatigant, nec praedae concustodita arcet. Paviunt castris cur errat ventis causa! Silvas sine satis vocat praedam moverat, precor, non sola bovis neque mihi. Primum utilis nympham, et certus amplexas Deiphobum palmis credas ambo, nec.
- Excidit gente, si orat suo quaeque dura Calydon nata? Pars auro post stetit adfusique imis amplexus. Agmina per fabricator mittere Erymanthon habetque tot.</description>
+Excidit gente, si orat suo quaeque dura Calydon nata? Pars auro post stetit adfusique imis amplexus. Agmina per fabricator mittere Erymanthon habetque tot.</description>
     </item>
     
   </channel>

@@ -6,10 +6,15 @@
     <description>Recent content in Blog on Aprendices Visualpartnership</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://visualpartnership.xyz/waffle/posts/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://visualpartnership.xyz/waffle/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Qué son los submódulos de git?</title>
+      <link>https://visualpartnership.xyz/waffle/posts/submodulos/</link>
+      <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://visualpartnership.xyz/waffle/posts/submodulos/</guid>
+      <description>¿Qué son los submódulos de git? Los submódulos de git son una forma de crear una copia de un repositorio dentro de tu repositprio principal. Es decir, es como una extensión, por ejemplo, dentro de tu proyecto puedes tener diferentes forks de repositorios que usarás para algo, como si tuvieras una biblioteca, creas tu carpeta donde se realiza el submódulo y asi podrás usar todo lo que tiene ese repo dentro de tu repositorio sin necesidad de tener toda esa información cargada directo en tu repositorio.</description>
+    </item>
     
     <item>
       <title>Que es Git y como comenzar a usarlo</title>
@@ -20,7 +25,7 @@
       <description>¿Qué es GIT? Git es un software opensource que se encarga de controlar las versiones de los archivos. Es manejado por medio de comandos y puede ser utilizado desde varios programas.
 Repositorios Remotos y Locales. Repositorios remotos: Son los que se encuentran en plataformas como GitHub o GitLab.
 Repositorios locales: Son los que se encuentran en nuestro equipo y es usado con comandos.
-Áreas de trabajo de Git  Working Directory: Es el lugar donde se almacena cualquier archivo nuevo creado o modificado.</description>
+Áreas de trabajo de Git Working Directory: Es el lugar donde se almacena cualquier archivo nuevo creado o modificado.</description>
     </item>
     
     <item>
