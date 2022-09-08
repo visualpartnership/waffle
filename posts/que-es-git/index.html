@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Que es Git y como comenzar a usarlo - Aprendices Visualpartnership</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://visualpartnership.xyz/wafflefavicon.png">
+
+  
+  
+  <link rel="stylesheet" href="../../css/style.min.27421784762557e8ce68ad08c3ba8f01bcbc026935d80278c3f88f1b33ce46a1.css">
+  
+
+  
+    <meta name="description" content="Descripción de comandos básicos de Git"/>
+    <meta property="og:title" content="Que es Git y como comenzar a usarlo"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://visualpartnership.xyz/waffle/posts/que-es-git/"/>
+    
+    <meta property="og:description" content="Descripción de comandos básicos de Git"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@zerostaticio"/>
+    <meta name="twitter:creator" content="@zerostaticio"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="https://visualpartnership.xyz/waffle">Aprendices Visualpartnership</a>
+  <div class="menu-main">
+    <ul>
+        
+        
+            <li class="menu-item-about">
+                <a href="../../pages/about/">About</a>
+            </li>
+        
+            <li class="menu-item-posts">
+                <a href="../../posts/">Posts</a>
+            </li>
+        
+    </ul>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Que es Git y como comenzar a usarlo<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <h1 id="qué-es-git">¿Qué es GIT?</h1>
+<p>Git es un software opensource que se encarga de controlar las versiones de los archivos. Es manejado por medio de comandos y puede ser utilizado desde varios programas.</p>
+<h1 id="repositorios-remotos-y-locales">Repositorios Remotos y Locales.</h1>
+<h2 id="repositorios-remotos">Repositorios remotos:</h2>
+<p>Son los que se encuentran en plataformas como GitHub o GitLab.</p>
+<h2 id="repositorios-locales">Repositorios locales:</h2>
+<p>Son los que se encuentran en nuestro equipo y es usado con comandos.</p>
+<h1 id="áreas-de-trabajo-de-git">Áreas de trabajo de Git</h1>
+<ol>
+<li>Working Directory: Es el lugar donde se almacena cualquier archivo nuevo creado o modificado. Lo podemos ver cuando ejecutamos <code>git status</code>y vemos los archivos en rojo.</li>
+<li>Stage Area: Es el lugar donde se guardan nuestros archivos al ejecutar <code>git add</code>. Lo observamos al ejecutar <code>git status</code> y vemos nuestros archivos en color verde.</li>
+<li>Local Repository: Nuestros archivos pasan a ésta área cuando hacemos commits a nuestros cambios y se guardan en Git.</li>
+<li>Remote repository: Al ejecutar <code>git push</code> pasamos nuestros cambios locales al repositorio remoto en alguna de las plataformas como GitHub o GitLab en donde los podemos ver graficamente.</li>
+</ol>
+<h1 id="empezar-a-usar-git">Empezar a usar Git.</h1>
+<p>Para empezar vamos a expicar los comandos básicos de Git:</p>
+<h2 id="comandos-para-crear-repositorios">Comandos para crear repositorios:</h2>
+<h4 id="primero-debemos-crear-una-carpeta-nueva-en-nuestro-equipo">Primero debemos crear una carpeta nueva en nuestro equipo.</h4>
+<p><img src="https://user-images.githubusercontent.com/84040594/167332066-55e2e2f8-725c-4931-aee7-797cbd685996.png" alt="Nueva Carpeta" title="Nueva Carpeta"></p>
+<p>Esto es para comenzar a versionar nuestra carpeta</p>
+<h4 id="--git-init">- Git Init</h4>
+<p>Para iniciae un repositorio local</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">git init
+</code></pre></div><p><img src="https://user-images.githubusercontent.com/84040594/167332169-42c0917d-d459-4ad1-97b1-b7f8e7798d0d.png" alt="repoLocal" title="repoLocal"></p>
+<p>Como observamos, una vez que se crea el repo local se refleja el mensaje de &ldquo;<em>master</em>&rdquo; haciendo referencia a la rama en la que se esta trabajando o en su defecto &ldquo;<em>main</em>&rdquo; si comenzamos a un repositorio en remoto.</p>
+<p><img src="https://user-images.githubusercontent.com/84040594/167332384-a80ff5dd-150e-42da-af31-d799d1dc3ff6.png" alt="rama" title="rama"></p>
+<h4 id="--git-add">- Git add</h4>
+<p>Creamos un archivo para comenzar a versionar. En este ejemplo usamos un &lsquo;readme.md&rsquo;
+<img src="https://user-images.githubusercontent.com/84040594/167333386-b78ed7b0-bb31-4dde-ae2c-5d28532a2374.png" alt="readme.md" title="readme.md"></p>
+<p>Para agregar nuestro archivo al Stage Area en git.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">git add
+</code></pre></div><p><img src="https://user-images.githubusercontent.com/84040594/167334295-5d020f7e-8cbc-475d-a66b-a67a9ea7ad94.png" alt="git add" title="git add"></p>
+<h4 id="--git-commit">- Git commit</h4>
+<p>Mandamos nuestro archivo al repo local con</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">git commit -m &#34;&lt;mensaje&gt;&#34;
+</code></pre></div><p><img src="https://user-images.githubusercontent.com/84040594/167334445-c282401b-c725-4c25-b254-1c00e6f0065e.png" alt="git commit" title="git commit">
+Listo. Tenemos un repositorio local.</p>
+<h4 id="creación-de-un-repositorio-remoto">Creación de un repositorio remoto.</h4>
+<p>Ya tenemos creado nuestro repositorio local, ahora lo vamos a enlazar con uno remoto con GitHub.</p>
+<p>Creamos un repositorio remoto en GitHub. Le damos un nombre a nuestro repositorio remoto, una descripción y le damos a <code>Create repository</code></p>
+<p><img src="https://user-images.githubusercontent.com/84040594/167336772-dc3f4435-b8b8-4e7b-b600-1dcf50dcb59f.png" alt="nombre repo remoto">
+<img src="https://user-images.githubusercontent.com/84040594/167336888-878f1f5d-ac11-47a9-b4a0-8bd442cb3ebc.png" alt="Create repository"></p>
+<p>Tenemos nuestro repositorio remoto creado.</p>
+<p><img src="https://user-images.githubusercontent.com/84040594/167337216-08bec293-178d-472a-983c-54d456de8fe6.png" alt="image"></p>
+<h4 id="conectar-nuestro-repositorio-local-con-uno-remoto">Conectar nuestro repositorio local con uno remoto.</h4>
+<h4 id="--git-remote">- Git remote</h4>
+<p>Usado para conectar nuestros repositorios remotos</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">git remote add origin &lt;link&gt;
+</code></pre></div><p><img src="https://user-images.githubusercontent.com/84040594/167337687-31eb3885-2f88-4ced-b58b-7238cd135183.png" alt="image"></p>
+<h4 id="--git-remote-1">- Git remote</h4>
+<p>Verificamos nuestra conexión con</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">git remote -v
+</code></pre></div><p><img src="https://user-images.githubusercontent.com/84040594/167337796-e89a2826-8ebc-4b06-9630-f5b6ad806604.png" alt="image"></p>
+<p>El link lo podemos encontrar en formato &lsquo;https&rsquo; o &lsquo;ssh&rsquo;
+<img src="https://user-images.githubusercontent.com/84040594/167337572-6b7922a0-0b6c-4865-88cc-aedeee79fc9e.png" alt="image">
+<img src="https://user-images.githubusercontent.com/84040594/167337594-55731c0a-258e-4c4e-bf34-d4e6b9ae532b.png" alt="image"></p>
+<h4 id="--git-push">- Git push</h4>
+<p>Para cargar los commits de la repo local a GitHub o el repo remoto</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">git push origin master
+</code></pre></div><p><img src="https://user-images.githubusercontent.com/84040594/167337958-f959c67c-defe-4f0d-9eb2-4344bef70070.png" alt="image"></p>
+<p>Listo!, Podemos ver nuestro repositorio remoto con los cambios creados (en este caso, el readme.md).
+<img src="https://user-images.githubusercontent.com/84040594/167338131-c8bb2cf7-e45f-4e19-a056-188482a5f821.png" alt="image"></p>
+<h2 id="otros-comandos-de-git-básicos">Otros comandos de Git básicos.</h2>
+<h4 id="--git-diff">- Git diff</h4>
+<p>Con este comando podemos ver los cambios que hemos ejecutado.
+<img src="https://user-images.githubusercontent.com/84040594/189021365-9db20faf-5bea-45fa-95a1-8163e059b0df.png" alt="image"></p>
+<h4 id="--git-log">- Git log</h4>
+<p>Nos lanza una lista de todos los commits que hemos hecho.
+<img src="https://user-images.githubusercontent.com/84040594/189021601-3a7b58b6-6db4-46b6-99cc-2ba1bccdb405.png" alt="image"></p>
+<h4 id="--git-clone">- Git clone</h4>
+<p>Nos permite descargar un repositorio remoto y ocuparlo en nuestro equipo.</p>
+<p><img src="https://user-images.githubusercontent.com/84040594/189023336-791426e0-2e0e-456e-af6b-4a777e8e464f.png" alt="image"></p>
+<h4 id="--git-pull">- Git pull</h4>
+<p>Descarga todos los cambios realziados en el repo remoto a nuestro repo local</p>
+<p><img src="https://user-images.githubusercontent.com/84040594/189023664-432adc69-e10f-4b66-a3a9-8527da5c8bc3.png" alt="image"></p>
+<h4 id="--git-fetch">- Git fetch</h4>
+<p>Nos permite jalar y enviar los nuevos cambios en repositorios remotos y locales.</p>
+<p><img src="https://user-images.githubusercontent.com/84040594/189024178-73045310-e26a-4468-9fbb-1dcef9718203.png" alt="image"></p>
+<h4 id="--git-reset">- Git reset</h4>
+<p>Nos permite eliminar el último commit</p>
+<p><img src="https://user-images.githubusercontent.com/84040594/189021998-103c6dba-5899-4685-89c8-081a26e24b87.png" alt="image"></p>
+<h4 id="--git-checkout">- Git checkout</h4>
+<p>Tiene distintos usos:</p>
+<ul>
+<li>
+<p><code>git checkout &lt;hash del commit&gt;</code>: nos cambia al commit mencionado, como un Ctrl+z
+<img src="https://user-images.githubusercontent.com/84040594/189022383-8d22119d-163a-49e9-b1c3-531f57a5d224.png" alt="image"></p>
+</li>
+<li>
+<p><code>git checkout -b &lt;branchName&gt;</code> : para crear una nueva branch en nuestro proyecto.
+<img src="https://user-images.githubusercontent.com/84040594/189022590-bf501133-d795-45ab-8dce-20c2bf778e06.png" alt="image"></p>
+</li>
+<li>
+<p><code>git checkout &lt;branchName&gt;</code> : Cambiarnos y posicionarnos en la branch elejida.
+<img src="https://user-images.githubusercontent.com/84040594/189022724-4b9cdfbd-ea2e-4832-a070-1f31e2a57c69.png" alt="image"></p>
+</li>
+</ul>
+<h4 id="--git--merge">- Git  merge</h4>
+<p>Para fusionar una rama difernete con la rama master
+<img src="https://user-images.githubusercontent.com/84040594/189023165-e685830b-9e2a-41a5-a949-a13e6f297b49.png" alt="image"></p>
+<p>Los recursos que puedo recomendar y que me ayudan mucho son:</p>
+<ul>
+<li>◼ <a href="https://git-scm.com/book/en/v2">Libro de Pro Git</a></li>
+<li>◼ <a href="https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf">Git Cheat Sheet</a></li>
+<li>◼ <a href="https://git-scm.com/docs">Documentación de Git</a></li>
+</ul>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/visual_partner" title="twitter" target="_blank" rel="noopener">
+          <img src="../../images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/visual_partner" title="github" target="_blank" rel="noopener">
+          <img src="../../images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/carlogilmar" title="linkedin" target="_blank" rel="noopener">
+          <img src="../../images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="../../js/bundle.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+</html>
