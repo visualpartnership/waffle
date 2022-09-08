@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+<<<<<<< HEAD
+=======
+    <loc>https://visualpartnership.xyz/waffle/posts/gohugo/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+>>>>>>> a41ccd83423c2abcbadf91184347d68b885ec3fb
     <loc>https://visualpartnership.xyz/waffle/</loc>
     <lastmod>2022-09-07T00:00:00+00:00</lastmod>
   </url>
